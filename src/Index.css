@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+
+
+}
+body{
+    background: #F0F2F5;
+}
+.frImagen{
+
+    background-image: url("./img/2654172.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 70vh;
+}
+.active{
+   
+    border-bottom: 2px solid #fff;
+}
+.activeNavLink{
+    color: #000;
+    border-bottom: 2px solid rgb(238, 26, 26);
+}
